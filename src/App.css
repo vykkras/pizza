@@ -1,0 +1,123 @@
+body{
+  body {
+    background: url('https://images.unsplash.com/photo-1572984226315-7fc09e4498ee?auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Lobster', cursive;
+    height: 100hv;
+    margin: 0;
+    padding: 0;
+  }
+  
+}
+
+.header{
+text-align: center;
+}
+
+ 
+
+.container{
+  padding: 20px;;
+}
+
+.pizza-container{
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.pizza-image{
+  width: 600px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 0 5px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.half{
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  cursor: pointer;
+}
+
+.left{
+  left: 0;
+  background-color: rgba(255,255,0,0.2);
+}
+
+.right{
+  right:0;
+  background-color: rgba(255,0,0,0.2);
+}
+
+.half:hover{
+  opacity: 0.8;
+}
+
+.results{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:800px;
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  color: yellow;
+  text-shadow: 2px 2px 1px rgba(0,0,0,0.7);
+  margin-top: -270px;
+
+}
+
+@keyframes pulse {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.1);}
+  100% {transform: scale(1);}
+  
+}
+
+h1{
+  animation: pulse 2s infinite;
+}
+
+.righty {
+  font-size: 50px;
+  font-weight: bold;
+  
+}
+
+.lefty{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.pineapple-stack{
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.pineapple-icon{
+  width: 40px;
+  height: auto;
+  
+}
+
+
+
+
+
+
